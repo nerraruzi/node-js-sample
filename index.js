@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
     fs.readFile('index.html',callback);
-    response.send('TravelNet-Work in Progress ')
+    // response.send('TravelNet-Work in Progress ')
 })
 
 app.listen(app.get('port'), function() {
